@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>RetroEmuX - Документация</title>
+</head>
+<body>
+    <h1>Добро пожаловать в документацию RetroEmuX</h1>
+    <p><strong>RetroEmuX</strong> – это мощный эмулятор ретро-консолей, предназначенный для запуска игр с платформ:</p>
+    <ul>
+        <li>Dendy (NES, Famicom)</li>
+        <li>Sega Mega Drive / Genesis</li>
+        <li>Sony PlayStation 1/2/3</li>
+        <li>Sega Dreamcast</li>
+    </ul>
+
+    <h2>Основные модули</h2>
+    <p>Проект разделен на несколько модулей:</p>
+    <ul>
+        <li><a href="core.html"><strong>Core</strong></a> – Логика эмуляции</li>
+        <li><a href="frontend.html"><strong>Frontend</strong></a> – Графический интерфейс</li>
+        <li><a href="game_loader.html"><strong>Game Loader</strong></a> – Загрузка и обработка ROM-файлов</li>
+    </ul>
+
+    <h2>Системные требования</h2>
+    <p>Для запуска RetroEmuX требуется:</p>
+    <ul>
+        <li>Python 3.8 или выше</li>
+        <li>Модули <code>pygame</code>, <code>tkinter</code>, <code>numpy</code></li>
+        <li>BIOS-файлы консолей (при необходимости)</li>
+    </ul>
+
+    <h2>Установка</h2>
+    <pre>
+git clone https://github.com/your-repo/RetroEmuX.git
+cd RetroEmuX
+pip install -r requirements.txt
+python main.py
+    </pre>
+
+    <a href="core.html">Перейти к модулю Core</a>
+</body>
+</html>

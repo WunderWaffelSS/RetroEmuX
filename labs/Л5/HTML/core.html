@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Модуль Core</title>
+</head>
+<body>
+    <h1>Модуль Core</h1>
+    <p>Этот модуль отвечает за эмуляцию процессора, видеовывода, памяти и управление игровыми процессами.</p>
+
+    <h2>Основные компоненты</h2>
+    <ul>
+        <li><strong>cpu_emulator.py</strong> – обработка команд процессора.</li>
+        <li><strong>memory_manager.py</strong> – управление оперативной памятью.</li>
+        <li><strong>video_renderer.py</strong> – обработка графики и видеовывод.</li>
+        <li><strong>audio_engine.py</strong> – эмуляция звукового процессора.</li>
+    </ul>
+
+    <h2>Пример работы с эмуляцией CPU</h2>
+    <pre>
+from core.cpu_emulator import CPU
+cpu = CPU()
+cpu.load_rom("game.rom")
+cpu.execute_next_instruction()
+    </pre>
+
+    <h2>Функции модуля</h2>
+    <ul>
+        <li>Эмуляция процессорных команд</li>
+        <li>Обработка графики в реальном времени</li>
+        <li>Работа с игровыми контроллерами</li>
+    </ul>
+
+    <a href="frontend.html">Перейти к модулю Frontend</a>
+</body>
+</html>

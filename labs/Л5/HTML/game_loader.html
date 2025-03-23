@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Модуль Game Loader</title>
+</head>
+<body>
+    <h1>Модуль Game Loader</h1>
+    <p>Отвечает за загрузку, проверку и парсинг ROM-файлов.</p>
+
+    <h2>Основные компоненты</h2>
+    <ul>
+        <li><strong>rom_loader.py</strong> – Загрузка ROM-файлов.</li>
+        <li><strong>bios_handler.py</strong> – Работа с BIOS-файлами.</li>
+        <li><strong>format_parser.py</strong> – Парсинг форматов игр.</li>
+        <li><strong>checksum_verifier.py</strong> – Проверка целостности ROM.</li>
+    </ul>
+
+    <h2>Функции модуля</h2>
+    <ul>
+        <li>Автоопределение формата ROM</li>
+        <li>Работа с ISO, BIN/CUE, NES, SMD</li>
+        <li>Загрузка и валидация BIOS</li>
+    </ul>
+
+    <h2>Пример кода</h2>
+    <pre>
+from game_loader.rom_loader import ROMLoader
+loader = ROMLoader()
+loader.load_rom("game.iso")
+    </pre>
+
+    <a href="index.html">Вернуться на главную</a>
+</body>
+</html>
