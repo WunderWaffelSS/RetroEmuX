@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
-from src.frontend.ui_manager import UIManager
-from src.game_loader.rom_loader import ROMLoader
+from frontend.ui_manager import UIManager
+from game_loader.rom_loader import ROMLoader
 
 
 class MainWindow:
